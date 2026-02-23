@@ -1,0 +1,138 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning",
+        "Good evening", "Helo", "Hai",
+        "Is anyone there?", "Greetings"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help?",
+        "Nice to see you!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "Your name",
+        "May I know your name?"
+      ],
+      "responses": [
+        "I am SmartAI Bot.",
+        "You can call me SmartBot.",
+        "I am your offline AI assistant."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "What are your features?",
+        "Help"
+      ],
+      "responses": [
+        "I can answer basic questions, solve math, and chat with you!",
+        "I am an offline AI chatbot built using Machine Learning."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who is your developer?",
+        "Who made you?"
+      ],
+      "responses": [
+        "I was created by a smart developer using Python and Machine Learning!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why did the computer go to the doctor? Because it caught a virus!",
+        "I would tell you a UDP joke… but you might not get it!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I feel sad",
+        "Give me inspiration",
+        "Encourage me"
+      ],
+      "responses": [
+        "Believe in yourself. You are capable of amazing things!",
+        "Every expert was once a beginner. Keep going!",
+        "Success starts with self-belief!"
+      ]
+    },
+    {
+      "tag": "sky",
+      "patterns": [
+        "What is the color of sky?",
+        "Why is sky blue?",
+        "Why does the sky look blue?",
+        "Tell me about sky color"
+      ],
+      "responses": [
+        "The sky appears blue due to Rayleigh scattering."
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "Solve 2 + 2",
+        "What is 5 times 3?",
+        "Calculate 10 minus 5",
+        "Do math",
+        "Help me with calculation"
+      ],
+      "responses": [
+        "Sure! Enter a math expression like 2+2.",
+        "I can solve basic arithmetic problems."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Exit",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!"
+      ]
+    }
+  ]
+}
